@@ -1,0 +1,14 @@
+사용자 A가 작성한 파일입니다.
+1. 계정 정보 등록
+	git config --global user.name 'season91'
+	git config --global user.email 'choayoung91@naver.com'
+
+ -> 우리수업 파일에 git폴더 만들고 그 안에 사용자 2개를 만든다.
+ -> cmd로 userA로 경로이동한다. 이 폴더를 깃이 관리하는 폴더로 만들어 줄 것이다.
+	cd /C/CODE/git/userA 
+ -> 복사하기 머였지?, 붙여넣기 쉬프트 인설트
+
+2. 폴더를 git이 관리하는 폴더로 만들기
+	git init
+	git checkout -b main : main브랜치를 만들어 해당 브랜치로 이동(git이 기본값이 main으로 바껴서그럼)
+	git status : 현재 상태 확인

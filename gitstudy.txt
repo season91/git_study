@@ -43,7 +43,13 @@
 	git pull해주기
 	git push origin main : 우리가 main브랜치니까 main브랜치로 넣어주기
 	
-8. 공통모듈 수정시
+8. 충돌 conflict
+	같은 라인에 여러명이 코드를 수정하면 auto merging이 안된다.
+	사용할 코드를 선택하고 나머지는 제거해야한다. >> 충돌 해결할 때 반드시 팀원에게 공유할 것
+	*공통모듈 수정시
 	충돌날 때 
 	pull한다음 push하기
 	push할때 같은 줄 수정시 상호출동나면 그부분 수정한 후 add 해주구 commit 해야 merging상태가 사라진다
+
+9. branch
+	git checkout -b dev : 브랜치로 관리하는게 싸움나는게 적다..

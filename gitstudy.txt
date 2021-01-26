@@ -54,3 +54,4 @@
 9. branch
 	git checkout -b dev : 브랜치로 관리하는게 싸움나는게 적다..
 	git merge dev : dev이름 브랜치를 main과 병합하게 되는 것
+	git log --oneline --graph : 그래프로 보여진다.

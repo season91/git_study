@@ -34,3 +34,5 @@
 	git reflog : 모든 내역을 확인하는 reflog를 사용해 모든 commit id 확인 가능.
 	-> git reset --hard e2090dd : commitid는 git log에서 확인가능 하다.
 	
+6. git revert
+	git revert <commit id> : 파일을 해당 commit 지점으로 되돌리고 revert log를 남긴다.

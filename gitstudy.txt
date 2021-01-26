@@ -1,4 +1,4 @@
-사용자 A가 작성한 파일입니다.
+사용자 A,B가 작성한 파일입니다.
 1. 계정 정보 등록
 	git config --global user.name 'season91'
 	git config --global user.email 'choayoung91@naver.com'
@@ -43,4 +43,4 @@
 	git pull해주기
 	git push origin main : 우리가 main브랜치니까 main브랜치로 넣어주기
 	
-	
+8. 공통모듈 수정시

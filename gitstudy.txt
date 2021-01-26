@@ -6,7 +6,7 @@
  -> 우리수업 파일에 git폴더 만들고 그 안에 사용자 2개를 만든다.
  -> cmd로 userA로 경로이동한다. 이 폴더를 깃이 관리하는 폴더로 만들어 줄 것이다.
 	cd /C/CODE/git/userA 
- -> 복사하기 머였지?, 붙여넣기 쉬프트 인설트
+ -> 복사하기 insert, 붙여넣기 shift insert
 
 2. 폴더를 git이 관리하는 폴더로 만들기
 	git init
@@ -36,3 +36,11 @@
 	
 6. git revert
 	git revert <commit id> : 파일을 해당 commit 지점으로 되돌리고 revert log를 남긴다.
+	
+7. git hub랑 연결하기
+	git remote add origin <링크> : 깃헙 링크 작성.
+	git remote -v : 버전확인.
+	git pull해주기
+	git push origin main : 우리가 main브랜치니까 main브랜치로 넣어주기
+	
+	

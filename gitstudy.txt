@@ -19,8 +19,18 @@
 	git commit : 변경 내용을 기록
 	-> git commit -m '[A]처음으로 git commit한 날' : 메시지부분으로 나중에 알아봐야하니까 자세히 적을 것.
 	git log : log 확인
+	
 4. 파일을 수정하고 add, commit 해보기
 	-> 원래 수정은 파일별로 하는게 아니고 한꺼번에 하는 것 임
 	git add . : 수정내역이 있는 모든 파일을 staging area 추가
 	git commit : commit 메세지를 자세히 적어야 한다면 -m 옵션을 제외하고 commit 진행.
 	text 에디터가 나오면 i를 눌러 입력모드로 전환하고 메세지를 구체적으로 작성한 후 esc + : + wq(저장하고 나가기)를 입력해 commit 완료
+	
+5. git reset
+	git reset --soft <commit id> : 내역을 되돌리고 commit을 취소 (staging 상태) 파일 안되돌림
+	git reset --mixed <commit id> : 기본값, 내역을 되돌리고 staging 취소. 파일 안되돌림
+	git reset --hard <commit id> : 해당 commit 지점으로 파일을 되돌린다.
+	reset을 하면 내역을 되돌리기 때문에 log 명령어로 commit id를 볼 수 없다.
+	git reflog : 모든 내역을 확인하는 reflog를 사용해 모든 commit id 확인 가능.
+	-> git reset --hard e2090dd : commitid는 git log에서 확인가능 하다.
+	
